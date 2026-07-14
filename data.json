@@ -1,0 +1,1686 @@
+{
+  "machines": [
+    {
+      "id": 6,
+      "name": "Abdominal",
+      "muscle_group": "Core"
+    },
+    {
+      "id": 2,
+      "name": "Bicep curl",
+      "muscle_group": "Biceps"
+    },
+    {
+      "id": 14,
+      "name": "Calf extension",
+      "muscle_group": "Calves"
+    },
+    {
+      "id": 18,
+      "name": "Chest press",
+      "muscle_group": "Chest"
+    },
+    {
+      "id": 13,
+      "name": "Glute",
+      "muscle_group": "Glutes"
+    },
+    {
+      "id": 9,
+      "name": "Hip abduction",
+      "muscle_group": "Hips"
+    },
+    {
+      "id": 10,
+      "name": "Hip adduction",
+      "muscle_group": "Hips"
+    },
+    {
+      "id": 24,
+      "name": "Hoist abdominal",
+      "muscle_group": "Core"
+    },
+    {
+      "id": 8,
+      "name": "Incline press",
+      "muscle_group": "Chest"
+    },
+    {
+      "id": 26,
+      "name": "LF abdominal",
+      "muscle_group": "Core"
+    },
+    {
+      "id": 20,
+      "name": "LF leg extension",
+      "muscle_group": "Quadriceps"
+    },
+    {
+      "id": 23,
+      "name": "LF shoulder press",
+      "muscle_group": "Shoulders"
+    },
+    {
+      "id": 22,
+      "name": "LF shoulder press (narrow)",
+      "muscle_group": "Shoulders"
+    },
+    {
+      "id": 7,
+      "name": "Lat pulldown",
+      "muscle_group": "Back"
+    },
+    {
+      "id": 16,
+      "name": "Lateral raise",
+      "muscle_group": "Shoulders"
+    },
+    {
+      "id": 19,
+      "name": "Leg curl",
+      "muscle_group": "Hamstrings"
+    },
+    {
+      "id": 12,
+      "name": "Leg extension",
+      "muscle_group": "Quadriceps"
+    },
+    {
+      "id": 25,
+      "name": "Leg press",
+      "muscle_group": "Quadriceps"
+    },
+    {
+      "id": 27,
+      "name": "Low back",
+      "muscle_group": "Back"
+    },
+    {
+      "id": 28,
+      "name": "Low back rocker",
+      "muscle_group": "Back"
+    },
+    {
+      "id": 3,
+      "name": "Pectoral fly",
+      "muscle_group": "Chest"
+    },
+    {
+      "id": 11,
+      "name": "Prone leg curl",
+      "muscle_group": "Hamstrings"
+    },
+    {
+      "id": 4,
+      "name": "Seated dip",
+      "muscle_group": "Triceps"
+    },
+    {
+      "id": 15,
+      "name": "Seated leg press",
+      "muscle_group": "Quadriceps"
+    },
+    {
+      "id": 21,
+      "name": "Seated press",
+      "muscle_group": "Quadriceps"
+    },
+    {
+      "id": 17,
+      "name": "Shoulder press",
+      "muscle_group": "Shoulders"
+    },
+    {
+      "id": 5,
+      "name": "Torso rotation",
+      "muscle_group": "Core"
+    },
+    {
+      "id": 1,
+      "name": "Tricep extension",
+      "muscle_group": "Triceps"
+    }
+  ],
+  "sets": [
+    {
+      "id": 1,
+      "lifter": "Robert",
+      "machine_id": 1,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 30.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 2,
+      "lifter": "Robert",
+      "machine_id": 1,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 40.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 3,
+      "lifter": "Robert",
+      "machine_id": 1,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 50.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 4,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 55.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 5,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 60.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 6,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 50.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 7,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 55.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 8,
+      "lifter": "Robert",
+      "machine_id": 5,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 55.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 9,
+      "lifter": "Robert",
+      "machine_id": 5,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 70.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 10,
+      "lifter": "Robert",
+      "machine_id": 6,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 55.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 11,
+      "lifter": "Robert",
+      "machine_id": 7,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 55.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 12,
+      "lifter": "Robert",
+      "machine_id": 7,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 60.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 13,
+      "lifter": "Robert",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 65.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 14,
+      "lifter": "Robert",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 85.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 15,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 60.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 16,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 55.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 17,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 55.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 18,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 60.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 19,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 65.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 20,
+      "lifter": "Robert",
+      "machine_id": 5,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 70.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 21,
+      "lifter": "Robert",
+      "machine_id": 6,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 45.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 22,
+      "lifter": "Robert",
+      "machine_id": 8,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 35.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 23,
+      "lifter": "Robert",
+      "machine_id": 8,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 30.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 24,
+      "lifter": "Robert",
+      "machine_id": 9,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 175.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 25,
+      "lifter": "Robert",
+      "machine_id": 10,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 145.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 26,
+      "lifter": "Robert",
+      "machine_id": 11,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 68.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 27,
+      "lifter": "Robert",
+      "machine_id": 11,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 58.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 28,
+      "lifter": "Robert",
+      "machine_id": 12,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 45.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 29,
+      "lifter": "Robert",
+      "machine_id": 12,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 65.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 30,
+      "lifter": "Robert",
+      "machine_id": 13,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 95.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 31,
+      "lifter": "Robert",
+      "machine_id": 13,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 85.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 32,
+      "lifter": "Robert",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 85.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 33,
+      "lifter": "Robert",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 90.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 34,
+      "lifter": "Robert",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 95.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 35,
+      "lifter": "Robert",
+      "machine_id": 15,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 130.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 36,
+      "lifter": "Robert",
+      "machine_id": 15,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 160.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 37,
+      "lifter": "Robert",
+      "machine_id": 15,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 190.0,
+      "num_sets": 1,
+      "comment": "go to 250"
+    },
+    {
+      "id": 38,
+      "lifter": "Robert",
+      "machine_id": 16,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 50.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 39,
+      "lifter": "Robert",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 145.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 40,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 55.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 41,
+      "lifter": "Robert",
+      "machine_id": 17,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 78.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 42,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 65.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 43,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 70.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 44,
+      "lifter": "Robert",
+      "machine_id": 18,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 65.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 45,
+      "lifter": "Robert",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 80.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 46,
+      "lifter": "Robert",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 120.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 47,
+      "lifter": "Robert",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 140.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 48,
+      "lifter": "Robert",
+      "machine_id": 20,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 85.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 49,
+      "lifter": "Robert",
+      "machine_id": 20,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 95.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 50,
+      "lifter": "Robert",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 115.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 51,
+      "lifter": "Robert",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 130.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 52,
+      "lifter": "Robert",
+      "machine_id": 21,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 250.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 53,
+      "lifter": "Robert",
+      "machine_id": 21,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 265.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 54,
+      "lifter": "Robert",
+      "machine_id": 21,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 280.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 55,
+      "lifter": "Robert",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 145.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 56,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 55.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 57,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 60.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 58,
+      "lifter": "Robert",
+      "machine_id": 22,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 5,
+      "weight": 55.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 59,
+      "lifter": "Robert",
+      "machine_id": 22,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 45.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 60,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 70.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 61,
+      "lifter": "Robert",
+      "machine_id": 13,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 85.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 62,
+      "lifter": "Robert",
+      "machine_id": 13,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 90.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 63,
+      "lifter": "Robert",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 140.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 64,
+      "lifter": "Robert",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 160.0,
+      "num_sets": 1,
+      "comment": "too much"
+    },
+    {
+      "id": 65,
+      "lifter": "Robert",
+      "machine_id": 9,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 175.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 66,
+      "lifter": "Robert",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 130.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 67,
+      "lifter": "Robert",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 145.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 68,
+      "lifter": "Robert",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 160.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 69,
+      "lifter": "Robert",
+      "machine_id": 10,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 190.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 70,
+      "lifter": "Robert",
+      "machine_id": 24,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 65.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 71,
+      "lifter": "Robert",
+      "machine_id": 5,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 70.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 72,
+      "lifter": "Robert",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 145.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 73,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 60.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 74,
+      "lifter": "Robert",
+      "machine_id": 23,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 45.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 75,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 70.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 76,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 75.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 77,
+      "lifter": "Robert",
+      "machine_id": 18,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 65.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 78,
+      "lifter": "Robert",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 140.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 79,
+      "lifter": "Robert",
+      "machine_id": 25,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 280.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 80,
+      "lifter": "Robert",
+      "machine_id": 25,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 290.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 81,
+      "lifter": "Robert",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 160.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 82,
+      "lifter": "Robert",
+      "machine_id": 26,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 85.0,
+      "num_sets": 2,
+      "comment": "too much"
+    },
+    {
+      "id": 83,
+      "lifter": "Robert",
+      "machine_id": 5,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 50.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 84,
+      "lifter": "Robert",
+      "machine_id": 9,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 175.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 85,
+      "lifter": "Robert",
+      "machine_id": 10,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 190.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 86,
+      "lifter": "Robert",
+      "machine_id": 10,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 220.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 87,
+      "lifter": "Robert",
+      "machine_id": 27,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 105.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 88,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 60.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 89,
+      "lifter": "Robert",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 145.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 90,
+      "lifter": "Robert",
+      "machine_id": 23,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 45.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 91,
+      "lifter": "Robert",
+      "machine_id": 23,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 40.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 92,
+      "lifter": "Robert",
+      "machine_id": 23,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 5,
+      "weight": 40.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 93,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 75.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 94,
+      "lifter": "Robert",
+      "machine_id": 7,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 70.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 95,
+      "lifter": "Robert",
+      "machine_id": 7,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 85.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 96,
+      "lifter": "Robert",
+      "machine_id": 7,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 100.0,
+      "num_sets": 1,
+      "comment": "too much"
+    },
+    {
+      "id": 97,
+      "lifter": "Jennie",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 45.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 98,
+      "lifter": "Jennie",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 25.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 99,
+      "lifter": "Jennie",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 20.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 100,
+      "lifter": "Jennie",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 25.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 101,
+      "lifter": "Jennie",
+      "machine_id": 5,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 102,
+      "lifter": "Jennie",
+      "machine_id": 6,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 30.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 103,
+      "lifter": "Jennie",
+      "machine_id": 8,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 8,
+      "weight": 10.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 104,
+      "lifter": "Jennie",
+      "machine_id": 8,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 8,
+      "weight": 10.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 105,
+      "lifter": "Jennie",
+      "machine_id": 8,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 6,
+      "weight": 10.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 106,
+      "lifter": "Jennie",
+      "machine_id": 9,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 100.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 107,
+      "lifter": "Jennie",
+      "machine_id": 10,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 85.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 108,
+      "lifter": "Jennie",
+      "machine_id": 11,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 28.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 109,
+      "lifter": "Jennie",
+      "machine_id": 12,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 15.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 110,
+      "lifter": "Jennie",
+      "machine_id": 13,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 111,
+      "lifter": "Jennie",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 112,
+      "lifter": "Jennie",
+      "machine_id": 15,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 70.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 113,
+      "lifter": "Jennie",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 45.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 114,
+      "lifter": "Jennie",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 15.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 115,
+      "lifter": "Jennie",
+      "machine_id": 17,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 8,
+      "weight": 8.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 116,
+      "lifter": "Jennie",
+      "machine_id": 17,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 7,
+      "weight": 8.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 117,
+      "lifter": "Jennie",
+      "machine_id": 17,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 6,
+      "weight": 8.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 118,
+      "lifter": "Jennie",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 25.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 119,
+      "lifter": "Jennie",
+      "machine_id": 18,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 5,
+      "weight": 15.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 120,
+      "lifter": "Jennie",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 60.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 121,
+      "lifter": "Jennie",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 80.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 122,
+      "lifter": "Jennie",
+      "machine_id": 20,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 35.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 123,
+      "lifter": "Jennie",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 124,
+      "lifter": "Jennie",
+      "machine_id": 15,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 70.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 125,
+      "lifter": "Jennie",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 45.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 126,
+      "lifter": "Jennie",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 15.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 127,
+      "lifter": "Jennie",
+      "machine_id": 23,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 10,
+      "weight": 10.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 128,
+      "lifter": "Jennie",
+      "machine_id": 23,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 7,
+      "weight": 10.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 129,
+      "lifter": "Jennie",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 25.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 130,
+      "lifter": "Jennie",
+      "machine_id": 28,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 30.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 131,
+      "lifter": "Jennie",
+      "machine_id": 13,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 132,
+      "lifter": "Jennie",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 80.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 133,
+      "lifter": "Jennie",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 100.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 134,
+      "lifter": "Jennie",
+      "machine_id": 9,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 100.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 135,
+      "lifter": "Jennie",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 136,
+      "lifter": "Jennie",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 55.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 137,
+      "lifter": "Jennie",
+      "machine_id": 10,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 85.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 138,
+      "lifter": "Jennie",
+      "machine_id": 24,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 30.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 139,
+      "lifter": "Jennie",
+      "machine_id": 5,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 140,
+      "lifter": "Jennie",
+      "machine_id": 19,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 100.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 141,
+      "lifter": "Jennie",
+      "machine_id": 25,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 70.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 142,
+      "lifter": "Jennie",
+      "machine_id": 25,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 85.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 143,
+      "lifter": "Jennie",
+      "machine_id": 14,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 55.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 144,
+      "lifter": "Jennie",
+      "machine_id": 26,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 145,
+      "lifter": "Jennie",
+      "machine_id": 5,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 50.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 146,
+      "lifter": "Jennie",
+      "machine_id": 5,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 147,
+      "lifter": "Jennie",
+      "machine_id": 9,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 100.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 148,
+      "lifter": "Jennie",
+      "machine_id": 10,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 85.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 149,
+      "lifter": "Jennie",
+      "machine_id": 27,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 30.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 150,
+      "lifter": "Jennie",
+      "machine_id": 2,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 15.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 151,
+      "lifter": "Jennie",
+      "machine_id": 4,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 45.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 152,
+      "lifter": "Jennie",
+      "machine_id": 23,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 10.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 153,
+      "lifter": "Jennie",
+      "machine_id": 3,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 25.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 154,
+      "lifter": "Jennie",
+      "machine_id": 7,
+      "logged_at": "2026-07-13 22:16:52",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    }
+  ]
+}

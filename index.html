@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <select id="user-select">
+    <select id="user-select" class="big-select">
       <option value="" disabled selected>Choose a lifter</option>
       <option value="Robert">Robert</option>
       <option value="Jennie">Jennie</option>
@@ -16,7 +16,21 @@
   </header>
 
   <main id="app">
-    <!-- Exercise tracking UI will go here -->
+    <section id="session-input" hidden>
+      <label for="machine-select">Machine</label>
+      <select id="machine-select" class="big-select">
+        <option value="" disabled selected>Choose a machine</option>
+      </select>
+
+      <form id="entry-form">
+        <label for="entry-input">Add set (e.g. "10 x 55, 60, 50")</label>
+        <input type="text" id="entry-input" class="big-select" autocomplete="off">
+        <button type="submit">Add</button>
+      </form>
+      <p id="entry-feedback"></p>
+
+      <div id="recent-sets"></div>
+    </section>
   </main>
 
   <script src="app.js"></script>

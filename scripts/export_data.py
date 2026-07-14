@@ -26,7 +26,7 @@ sets = [
     dict(row)
     for row in cur.execute(
         """
-        SELECT st.id, l.name AS lifter, e.machine_id, s.logged_at,
+        SELECT st.id, l.name AS lifter, e.machine_id, e.logged_at,
                st.reps, st.weight, st.num_sets, st.comment
         FROM sets st
         JOIN exercise_entries e ON e.id = st.entry_id

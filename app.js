@@ -9,7 +9,7 @@ const entryFeedback = document.getElementById("entry-feedback");
 let data = { machines: [], sets: [] };
 let currentLifter = null;
 
-fetch("data.json")
+fetch("data.php")
   .then((res) => res.json())
   .then((json) => {
     data = json;

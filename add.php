@@ -239,10 +239,9 @@ try {
     }
 
     $stmt = $db->prepare(
-        "SELECT st.id, ? AS lifter, e.machine_id, s.logged_at, st.reps, st.weight, st.num_sets, st.comment
+        "SELECT st.id, ? AS lifter, e.machine_id, e.logged_at, st.reps, st.weight, st.num_sets, st.comment
          FROM sets st
          JOIN exercise_entries e ON e.id = st.entry_id
-         JOIN sessions s ON s.id = e.session_id
          WHERE st.entry_id = ?
          ORDER BY st.set_order"
     );

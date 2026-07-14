@@ -60,7 +60,12 @@
       "Bash(sqlite3 -header -column getswole.db \"SELECT id, session_id, machine_id, entry_order, raw_text, comment FROM exercise_entries ORDER BY id DESC LIMIT 3;\")",
       "Bash(curl -sf http://localhost:8934/)",
       "Bash(break)",
-      "Bash(npx --yes playwright --version)"
+      "Bash(npx --yes playwright --version)",
+      "Bash(php -S localhost:8935)",
+      "Bash(echo \"server started, pid $!\")",
+      "Bash(curl -s http://localhost:8935/data.php)",
+      "Bash(curl -s -X POST http://localhost:8935/add.php -H 'Content-Type: application/json' -d '{\"lifter\":\"Robert\",\"machine_id\":2,\"expr\":\"10 x 55\"}')",
+      "Bash(curl -s -X POST http://localhost:8935/add.php -H 'Content-Type: application/json' -d '{\"lifter\":\"Robert\",\"machine_id\":2,\"expr\":\"8 x 60\"}')"
     ]
   }
 }

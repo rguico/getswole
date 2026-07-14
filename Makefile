@@ -1,8 +1,10 @@
 PORT ?= 8934
 DB := getswole.db
 SCHEMA := schema.sql
+DEPLOY_HOST := lpangelrob_rguico@ssh.nyc1.nearlyfreespeech.net
+DEPLOY_PATH := getswole/
 
-.PHONY: serve db seed parse export schema data
+.PHONY: serve db seed parse export schema data deploy
 
 serve:
 	php -S localhost:$(PORT)
@@ -31,3 +33,6 @@ data: parse
 		sqlite3 -header -column $(DB) "SELECT * FROM $$t;"; \
 		echo; \
 	done
+
+deploy:
+	rsync -r --exclude $(DB) . $(DEPLOY_HOST):$(DEPLOY_PATH)

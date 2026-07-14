@@ -33,6 +33,8 @@ CREATE TABLE sessions (
 );
 
 -- One line within a session, e.g. "Bicep curl: 12, 10, 10 x 55, 60, 50"
+-- logged_at is the time this specific entry was added, distinct from the
+-- session's logged_at (which reflects only the session's first entry).
 CREATE TABLE exercise_entries (
     id           INTEGER PRIMARY KEY,
     session_id   INTEGER NOT NULL REFERENCES sessions(id),
@@ -40,6 +42,7 @@ CREATE TABLE exercise_entries (
     entry_order  INTEGER NOT NULL,
     raw_text     TEXT NOT NULL,
     comment      TEXT,
+    logged_at    TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (session_id, entry_order)
 );
 

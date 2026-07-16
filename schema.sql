@@ -12,11 +12,13 @@ CREATE TABLE muscle_groups (
     name TEXT NOT NULL UNIQUE
 );
 
--- Machines/exercises, each belonging to one muscle group
+-- Machines/exercises, each belonging to one muscle group. muscle_group_id
+-- is nullable because machines can be added ad hoc from the entry form
+-- before anyone has categorized them.
 CREATE TABLE machines (
     id               INTEGER PRIMARY KEY,
     name             TEXT NOT NULL UNIQUE,
-    muscle_group_id  INTEGER NOT NULL REFERENCES muscle_groups(id)
+    muscle_group_id  INTEGER REFERENCES muscle_groups(id)
 );
 
 -- A session is one blank-line-separated block in getswole.md for a lifter.

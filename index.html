@@ -17,10 +17,22 @@
 
   <main id="app">
     <section id="session-input" hidden>
-      <label for="machine-select">Machine</label>
-      <select id="machine-select" class="big-select">
-        <option value="" disabled selected>Choose a machine</option>
-      </select>
+      <label for="machine-input">Machine</label>
+      <div id="machine-combobox" class="combobox">
+        <input
+          type="text"
+          id="machine-input"
+          class="big-select"
+          autocomplete="off"
+          placeholder="Choose a machine"
+          role="combobox"
+          aria-expanded="false"
+          aria-autocomplete="list"
+          aria-controls="machine-list"
+        >
+        <ul id="machine-list" class="combobox-list" hidden></ul>
+      </div>
+      <button type="button" id="remove-machine-button" class="text-button" hidden>Remove machine</button>
 
       <form id="entry-form">
         <label for="entry-input">Add set (e.g. "10 x 55, 60, 50")</label>
@@ -32,6 +44,16 @@
       <div id="recent-sets"></div>
     </section>
   </main>
+
+  <div id="confirm-modal" class="modal-overlay" hidden>
+    <div class="modal" role="alertdialog" aria-modal="true" aria-labelledby="confirm-modal-message">
+      <p id="confirm-modal-message"></p>
+      <div class="modal-actions">
+        <button type="button" id="confirm-modal-cancel">Cancel</button>
+        <button type="button" id="confirm-modal-confirm" class="danger">Remove</button>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

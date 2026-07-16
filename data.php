@@ -11,7 +11,7 @@ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $machines = $db->query(
     'SELECT m.id, m.name, g.name AS muscle_group
      FROM machines m
-     JOIN muscle_groups g ON g.id = m.muscle_group_id
+     LEFT JOIN muscle_groups g ON g.id = m.muscle_group_id
      ORDER BY m.name'
 )->fetchAll(PDO::FETCH_ASSOC);
 

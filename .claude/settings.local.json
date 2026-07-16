@@ -65,7 +65,21 @@
       "Bash(echo \"server started, pid $!\")",
       "Bash(curl -s http://localhost:8935/data.php)",
       "Bash(curl -s -X POST http://localhost:8935/add.php -H 'Content-Type: application/json' -d '{\"lifter\":\"Robert\",\"machine_id\":2,\"expr\":\"10 x 55\"}')",
-      "Bash(curl -s -X POST http://localhost:8935/add.php -H 'Content-Type: application/json' -d '{\"lifter\":\"Robert\",\"machine_id\":2,\"expr\":\"8 x 60\"}')"
+      "Bash(curl -s -X POST http://localhost:8935/add.php -H 'Content-Type: application/json' -d '{\"lifter\":\"Robert\",\"machine_id\":2,\"expr\":\"8 x 60\"}')",
+      "Bash(set -e)",
+      "Bash(curl -s localhost:8934/data.php -o /dev/null -w \"%{http_code}\\\\n\")",
+      "Bash(curl -s -X POST localhost:8934/add_machine.php -H \"Content-Type: application/json\" -d '{\"name\":\"Test Cable Fly\"}')",
+      "Bash(curl -s localhost:8934/data.php)",
+      "Bash(curl -s -X POST localhost:8934/add_machine.php -H \"Content-Type: application/json\" -d '{\"name\":\"test cable fly\"}')",
+      "Bash(curl -s -X POST localhost:8934/delete_machine.php -H \"Content-Type: application/json\" -d '{\"machine_id\":29}')",
+      "Bash(php -l /Users/robertguico/code/getswole/index.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" localhost:8934/index.html)",
+      "Bash(curl -s localhost:8934/style.css)",
+      "Bash(curl -s -o /dev/null -w \"index.html: %{http_code}\\\\nstyle.css: \" localhost:8934/index.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" localhost:8934/style.css)",
+      "Read(//Users/robertguico/Library/Caches/ms-playwright/**)",
+      "Read(//Users/robertguico/.cache/**)",
+      "Bash(npx --yes playwright screenshot --browser=chromium http://localhost:8934/index.html before-fix-check.png)"
     ]
   }
 }

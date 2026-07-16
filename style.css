@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -60,6 +64,59 @@ main {
   margin-bottom: 0.5rem;
 }
 
+.combobox {
+  position: relative;
+}
+
+.combobox-list {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  max-height: 240px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0.4rem 0;
+  list-style: none;
+  background: #ffffff;
+  border: 2px solid #8e8e93;
+  border-radius: 12px;
+}
+
+.combobox-list li {
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.combobox-list li.active,
+.combobox-list li:hover {
+  background: #e5e5ea;
+}
+
+.combobox-list li.empty {
+  color: #8e8e93;
+  cursor: default;
+}
+
+.combobox-list li.add-machine {
+  font-weight: 600;
+  color: #0a84ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .combobox-list {
+    background: #2c2c2e;
+    border-color: #636366;
+  }
+
+  .combobox-list li.active,
+  .combobox-list li:hover {
+    background: #3a3a3c;
+  }
+}
+
 #entry-form {
   margin-top: 1rem;
 }
@@ -103,4 +160,68 @@ main {
   line-height: 1;
   padding: 0.25rem;
   cursor: pointer;
+}
+
+.text-button {
+  display: block;
+  margin: 0.5rem 0 0;
+  border: none;
+  background: none;
+  color: #ff3b30;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.25rem 0;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+}
+
+.modal {
+  width: 100%;
+  max-width: 360px;
+  background: #ffffff;
+  color: inherit;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.modal p {
+  margin: 0 0 1.25rem;
+  font-size: 1.05rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+.modal-actions button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 2px solid #8e8e93;
+  background: none;
+  color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.modal-actions button.danger {
+  background: #ff3b30;
+  border-color: #ff3b30;
+  color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .modal {
+    background: #2c2c2e;
+  }
 }

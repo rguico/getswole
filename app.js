@@ -3,6 +3,7 @@ const sessionInput = document.getElementById("session-input");
 const machineInput = document.getElementById("machine-input");
 const machineList = document.getElementById("machine-list");
 const removeMachineButton = document.getElementById("remove-machine-button");
+const clearMachineButton = document.getElementById("clear-machine-button");
 const recentSets = document.getElementById("recent-sets");
 const entryForm = document.getElementById("entry-form");
 const entryInput = document.getElementById("entry-input");
@@ -114,7 +115,22 @@ function selectMachine(machine) {
   machineInput.value = machine.name;
   closeMachineList();
   removeMachineButton.hidden = false;
+  updateClearMachineButton();
   updateRecentSets();
+}
+
+function updateClearMachineButton() {
+  clearMachineButton.hidden = machineInput.value.trim().length === 0;
+}
+
+function clearMachine() {
+  selectedMachineId = null;
+  machineInput.value = "";
+  removeMachineButton.hidden = true;
+  updateClearMachineButton();
+  closeMachineList();
+  updateRecentSets();
+  machineInput.focus();
 }
 
 function setActiveIndex(index) {
@@ -132,8 +148,11 @@ function setActiveIndex(index) {
 machineInput.addEventListener("input", () => {
   selectedMachineId = null;
   removeMachineButton.hidden = true;
+  updateClearMachineButton();
   openMachineList();
 });
+
+clearMachineButton.addEventListener("click", clearMachine);
 
 machineInput.addEventListener("focus", openMachineList);
 
@@ -226,6 +245,7 @@ async function deleteMachine(machineId) {
     selectedMachineId = null;
     machineInput.value = "";
     removeMachineButton.hidden = true;
+    updateClearMachineButton();
     updateRecentSets();
   } catch (err) {
     entryFeedback.textContent = "Failed to remove machine: " + err.message;

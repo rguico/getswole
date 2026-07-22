@@ -28,7 +28,37 @@ body {
 header {
   padding: 1.5rem 1rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+a {
+  color: #0a84ff;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+}
+
+.lifter-nav {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.lifter-link {
+  color: #8e8e93;
+  text-decoration: none;
+}
+
+.lifter-link.active {
+  color: #0a84ff;
+}
+
+.muted {
+  color: #8e8e93;
 }
 
 .big-select {
@@ -125,32 +155,68 @@ main {
   text-align: left;
 }
 
-#recent-sets {
+.sets-table-wrap {
   margin-top: 1.5rem;
 }
 
-#recent-sets table {
+.sets-table-wrap table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.95rem;
 }
 
-#recent-sets th,
-#recent-sets td {
+.sets-table-wrap th,
+.sets-table-wrap td {
   text-align: left;
   padding: 0.5rem;
   border-bottom: 1px solid #d1d1d6;
 }
 
 @media (prefers-color-scheme: dark) {
-  #recent-sets th,
-  #recent-sets td {
+  .sets-table-wrap th,
+  .sets-table-wrap td {
     border-bottom-color: #48484a;
   }
 }
 
-#recent-sets p {
+.sets-table-wrap p {
   color: #8e8e93;
+}
+
+.day-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.day-nav h2 {
+  flex: 1;
+  margin: 0;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.day-nav-link {
+  flex-shrink: 0;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 2px solid #8e8e93;
+  color: inherit;
+  font-size: 0.95rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.day-nav-link:hover {
+  background: #e5e5ea;
+}
+
+@media (prefers-color-scheme: dark) {
+  .day-nav-link:hover {
+    background: #3a3a3c;
+  }
 }
 
 .delete-set {
@@ -171,6 +237,57 @@ main {
   font-size: 0.95rem;
   cursor: pointer;
   padding: 0.25rem 0;
+}
+
+.input-inline-action {
+  position: relative;
+}
+
+.input-inline-action .big-select {
+  padding-right: 3.5rem;
+}
+
+.input-inline-button {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: #e5e5ea;
+  color: #636366;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+}
+
+.input-inline-button:hover {
+  background: #d1d1d6;
+}
+
+.input-inline-button:active {
+  background: #c7c7cc;
+}
+
+@media (prefers-color-scheme: dark) {
+  .input-inline-button {
+    background: #3a3a3c;
+    color: #aeaeb2;
+  }
+
+  .input-inline-button:hover {
+    background: #48484a;
+  }
+
+  .input-inline-button:active {
+    background: #545456;
+  }
 }
 
 .modal-overlay {

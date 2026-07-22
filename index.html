@@ -13,12 +13,13 @@
       <option value="Robert">Robert</option>
       <option value="Jennie">Jennie</option>
     </select>
+    <a href="history.php" class="nav-link">View history</a>
   </header>
 
   <main id="app">
     <section id="session-input" hidden>
       <label for="machine-input">Machine</label>
-      <div id="machine-combobox" class="combobox">
+      <div id="machine-combobox" class="combobox input-inline-action">
         <input
           type="text"
           id="machine-input"
@@ -30,18 +31,21 @@
           aria-autocomplete="list"
           aria-controls="machine-list"
         >
+        <button type="button" id="clear-machine-button" class="input-inline-button" hidden aria-label="Clear machine">&times;</button>
         <ul id="machine-list" class="combobox-list" hidden></ul>
       </div>
       <button type="button" id="remove-machine-button" class="text-button" hidden>Remove machine</button>
 
       <form id="entry-form">
         <label for="entry-input">Add set (e.g. "10 x 55, 60, 50")</label>
-        <input type="text" id="entry-input" class="big-select" autocomplete="off">
-        <button type="submit">Add</button>
+        <div class="input-inline-action">
+          <input type="text" id="entry-input" class="big-select" autocomplete="off">
+          <button type="submit" class="input-inline-button" aria-label="Add set">+</button>
+        </div>
       </form>
       <p id="entry-feedback"></p>
 
-      <div id="recent-sets"></div>
+      <div id="recent-sets" class="sets-table-wrap"></div>
     </section>
   </main>
 

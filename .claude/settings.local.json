@@ -79,7 +79,13 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" localhost:8934/style.css)",
       "Read(//Users/robertguico/Library/Caches/ms-playwright/**)",
       "Read(//Users/robertguico/.cache/**)",
-      "Bash(npx --yes playwright screenshot --browser=chromium http://localhost:8934/index.html before-fix-check.png)"
+      "Bash(npx --yes playwright screenshot --browser=chromium http://localhost:8934/index.html before-fix-check.png)",
+      "Bash(php *)",
+      "Bash(curl -s \"http://127.0.0.1:8811/history.php\")",
+      "Bash(curl -s \"http://127.0.0.1:8811/history.php?lifter=Robert\")",
+      "Bash(curl -s \"http://127.0.0.1:8811/history.php?lifter=Robert&date=2026-07-13\")",
+      "Bash(curl -s \"http://127.0.0.1:8811/history.php?lifter=Robert&date=2026-07-20\")",
+      "Bash(jobs)"
     ]
   }
 }

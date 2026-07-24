@@ -75,9 +75,27 @@ $nextDate = null;
 $heading = null;
 if ($date !== null) {
     $dateObj = DateTime::createFromFormat('Y-m-d', $date);
-    $prevDate = (clone $dateObj)->modify('-1 day')->format('Y-m-d');
-    $nextDate = (clone $dateObj)->modify('+1 day')->format('Y-m-d');
     $heading = $dateObj->format('l, F j, Y');
+
+    $stmt = $db->prepare(
+        "SELECT MAX(date(e.logged_at))
+         FROM exercise_entries e
+         JOIN sessions s ON s.id = e.session_id
+         JOIN lifters l ON l.id = s.lifter_id
+         WHERE l.name = ? AND date(e.logged_at) < ?"
+    );
+    $stmt->execute([$lifterName, $date]);
+    $prevDate = $stmt->fetchColumn() ?: null;
+
+    $stmt = $db->prepare(
+        "SELECT MIN(date(e.logged_at))
+         FROM exercise_entries e
+         JOIN sessions s ON s.id = e.session_id
+         JOIN lifters l ON l.id = s.lifter_id
+         WHERE l.name = ? AND date(e.logged_at) > ?"
+    );
+    $stmt->execute([$lifterName, $date]);
+    $nextDate = $stmt->fetchColumn() ?: null;
 }
 ?>
 <!DOCTYPE html>
@@ -108,9 +126,17 @@ if ($date !== null) {
       <p class="muted">No workouts logged yet for <?= h($lifterName) ?>.</p>
     <?php else: ?>
       <nav class="day-nav">
-        <a href="<?= h(history_url($lifterName, $prevDate)) ?>" class="day-nav-link">&lsaquo; Prev day</a>
+        <?php if ($prevDate !== null): ?>
+          <a href="<?= h(history_url($lifterName, $prevDate)) ?>" class="day-nav-link">&lsaquo; Prev day</a>
+        <?php else: ?>
+          <span class="day-nav-link disabled">&lsaquo; Prev day</span>
+        <?php endif; ?>
         <h2><?= h($heading) ?></h2>
-        <a href="<?= h(history_url($lifterName, $nextDate)) ?>" class="day-nav-link">Next day &rsaquo;</a>
+        <?php if ($nextDate !== null): ?>
+          <a href="<?= h(history_url($lifterName, $nextDate)) ?>" class="day-nav-link">Next day &rsaquo;</a>
+        <?php else: ?>
+          <span class="day-nav-link disabled">Next day &rsaquo;</span>
+        <?php endif; ?>
       </nav>
       <?php if ($date !== $mostRecentDate): ?>
         <p><a href="<?= h(history_url($lifterName, null)) ?>">Jump to most recent day</a></p>

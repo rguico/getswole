@@ -213,9 +213,19 @@ main {
   background: #e5e5ea;
 }
 
+.day-nav-link.disabled {
+  opacity: 0.4;
+  border-color: #d1d1d6;
+  pointer-events: none;
+}
+
 @media (prefers-color-scheme: dark) {
   .day-nav-link:hover {
     background: #3a3a3c;
+  }
+
+  .day-nav-link.disabled {
+    border-color: #48484a;
   }
 }
 

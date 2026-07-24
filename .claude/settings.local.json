@@ -85,7 +85,8 @@
       "Bash(curl -s \"http://127.0.0.1:8811/history.php?lifter=Robert\")",
       "Bash(curl -s \"http://127.0.0.1:8811/history.php?lifter=Robert&date=2026-07-13\")",
       "Bash(curl -s \"http://127.0.0.1:8811/history.php?lifter=Robert&date=2026-07-20\")",
-      "Bash(jobs)"
+      "Bash(jobs)",
+      "Bash(make help *)"
     ]
   }
 }

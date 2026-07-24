@@ -6,12 +6,17 @@ DEPLOY_PATH := getswole/
 
 BACKUP_DIR := backups
 
-.PHONY: serve db seed parse export schema data deploy backup overwrite
+.PHONY: help serve db seed parse export schema data deploy backup overwrite
 
-serve:
+.DEFAULT_GOAL := serve
+
+help: ## Show this help
+	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9_-]+:.*?## /{printf "%-10s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+serve: ## Run the local PHP dev server
 	php -S localhost:$(PORT)
 
-backup:
+backup: ## Download a timestamped copy of the deployed database
 	mkdir -p $(BACKUP_DIR)
 	scp $(DEPLOY_HOST):$(DEPLOY_PATH)$(DB) $(BACKUP_DIR)/getswole-$$(date +%Y%m%d-%H%M%S).db
 
@@ -19,29 +24,29 @@ $(DB): $(SCHEMA)
 	rm -f $(DB)
 	sqlite3 $(DB) < $(SCHEMA)
 
-db: $(DB)
+db: $(DB) ## Create the local database from the schema
 
-seed: db
+seed: db ## Seed the database with machine data
 	python3 scripts/seed_machines.py
 
-parse: seed
+parse: seed ## Parse source workout data into the database
 	python3 scripts/parse_getswole.py
 
-export: parse
+export: parse ## Export parsed data
 	python3 scripts/export_data.py
 
-schema: db
+schema: db ## Print the database schema
 	sqlite3 $(DB) ".schema"
 
-data: parse
+data: parse ## Dump the contents of every table
 	@for t in $$(sqlite3 $(DB) ".tables"); do \
 		echo "== $$t =="; \
 		sqlite3 -header -column $(DB) "SELECT * FROM $$t;"; \
 		echo; \
 	done
 
-deploy:
+deploy: ## Rsync the project to the deploy host (excludes the db)
 	rsync -r --exclude $(DB) . $(DEPLOY_HOST):$(DEPLOY_PATH)
 
-overwrite:
+overwrite: ## Push the local database to the deploy host
 	scp $(DB) $(DEPLOY_HOST):$(DEPLOY_PATH)$(DB)

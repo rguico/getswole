@@ -1,29 +1,29 @@
 machine,group
-Tricep extension,Triceps
-Bicep curl,Biceps
-Pectoral fly,Chest
-Seated dip,Triceps
+Tricep extension,Upper
+Bicep curl,Upper
+Pectoral fly,Upper
+Seated dip,Upper
 Torso rotation,Core
 Abdominal,Core
-Lat pulldown,Back
-Incline press,Chest
-Hip abduction,Hips
-Hip adduction,Hips
-Prone leg curl,Hamstrings
-Leg extension,Quadriceps
-Glute,Glutes
-Calf extension,Calves
-Seated leg press,Quadriceps
-Lateral raise,Shoulders
-Shoulder press,Shoulders
-Chest press,Chest
-Leg curl,Hamstrings
-LF leg extension,Quadriceps
-Seated press,Quadriceps
-LF shoulder press (narrow),Shoulders
-LF shoulder press,Shoulders
+Lat pulldown,Upper
+Incline press,Upper
+Hip abduction,Lower
+Hip adduction,Lower
+Prone leg curl,Lower
+Leg extension,Lower
+Glute,Lower
+Calf extension,Lower
+Seated leg press,Lower
+Lateral raise,Upper
+Shoulder press,Upper
+Chest press,Upper
+Leg curl,Lower
+LF leg extension,Lower
+Seated press,Lower
+LF shoulder press (narrow),Upper
+LF shoulder press,Upper
 Hoist abdominal,Core
-Leg press,Quadriceps
+Leg press,Lower
 LF abdominal,Core
-Low back,Back
-Low back rocker,Back
+Low back,Upper
+Low back rocker,Upper

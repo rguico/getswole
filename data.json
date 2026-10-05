@@ -8,32 +8,32 @@
     {
       "id": 2,
       "name": "Bicep curl",
-      "muscle_group": "Biceps"
+      "muscle_group": "Upper"
     },
     {
       "id": 14,
       "name": "Calf extension",
-      "muscle_group": "Calves"
+      "muscle_group": "Lower"
     },
     {
       "id": 18,
       "name": "Chest press",
-      "muscle_group": "Chest"
+      "muscle_group": "Upper"
     },
     {
       "id": 13,
       "name": "Glute",
-      "muscle_group": "Glutes"
+      "muscle_group": "Lower"
     },
     {
       "id": 9,
       "name": "Hip abduction",
-      "muscle_group": "Hips"
+      "muscle_group": "Lower"
     },
     {
       "id": 10,
       "name": "Hip adduction",
-      "muscle_group": "Hips"
+      "muscle_group": "Lower"
     },
     {
       "id": 24,
@@ -43,7 +43,7 @@
     {
       "id": 8,
       "name": "Incline press",
-      "muscle_group": "Chest"
+      "muscle_group": "Upper"
     },
     {
       "id": 26,
@@ -53,82 +53,72 @@
     {
       "id": 20,
       "name": "LF leg extension",
-      "muscle_group": "Quadriceps"
+      "muscle_group": "Lower"
     },
     {
       "id": 23,
       "name": "LF shoulder press",
-      "muscle_group": "Shoulders"
+      "muscle_group": "Upper"
     },
     {
       "id": 22,
       "name": "LF shoulder press (narrow)",
-      "muscle_group": "Shoulders"
+      "muscle_group": "Upper"
     },
     {
       "id": 7,
       "name": "Lat pulldown",
-      "muscle_group": "Back"
+      "muscle_group": "Upper"
     },
     {
       "id": 16,
       "name": "Lateral raise",
-      "muscle_group": "Shoulders"
+      "muscle_group": "Upper"
     },
     {
       "id": 19,
       "name": "Leg curl",
-      "muscle_group": "Hamstrings"
+      "muscle_group": "Lower"
     },
     {
       "id": 12,
       "name": "Leg extension",
-      "muscle_group": "Quadriceps"
-    },
-    {
-      "id": 25,
-      "name": "Leg press",
-      "muscle_group": "Quadriceps"
+      "muscle_group": "Lower"
     },
     {
       "id": 27,
       "name": "Low back",
-      "muscle_group": "Back"
-    },
-    {
-      "id": 28,
-      "name": "Low back rocker",
-      "muscle_group": "Back"
+      "muscle_group": "Upper"
     },
     {
       "id": 3,
       "name": "Pectoral fly",
-      "muscle_group": "Chest"
+      "muscle_group": "Upper"
     },
     {
       "id": 11,
       "name": "Prone leg curl",
-      "muscle_group": "Hamstrings"
+      "muscle_group": "Lower"
+    },
+    {
+      "id": 31,
+      "name": "Rear deltoid",
+      "muscle_group": "Upper"
     },
     {
       "id": 4,
       "name": "Seated dip",
-      "muscle_group": "Triceps"
+      "muscle_group": "Upper"
     },
     {
       "id": 15,
       "name": "Seated leg press",
-      "muscle_group": "Quadriceps"
-    },
-    {
-      "id": 21,
-      "name": "Seated press",
-      "muscle_group": "Quadriceps"
+      "muscle_group": "Lower"
     },
     {
       "id": 17,
       "name": "Shoulder press",
-      "muscle_group": "Shoulders"
+      "muscle_group": "Upper"
     },
     {
       "id": 5,
@@ -138,7 +128,12 @@
     {
       "id": 1,
       "name": "Tricep extension",
-      "muscle_group": "Triceps"
+      "muscle_group": "Upper"
+    },
+    {
+      "id": 30,
+      "name": "Triceps press",
+      "muscle_group": "Upper"
     }
   ],
   "sets": [
@@ -655,7 +650,7 @@
     {
       "id": 52,
       "lifter": "Robert",
-      "machine_id": 21,
+      "machine_id": 15,
       "logged_at": "2026-07-13 22:16:52",
       "reps": 10,
       "weight": 250.0,
@@ -665,7 +660,7 @@
     {
       "id": 53,
       "lifter": "Robert",
-      "machine_id": 21,
+      "machine_id": 15,
       "logged_at": "2026-07-13 22:16:52",
       "reps": 10,
       "weight": 265.0,
@@ -675,7 +670,7 @@
     {
       "id": 54,
       "lifter": "Robert",
-      "machine_id": 21,
+      "machine_id": 15,
       "logged_at": "2026-07-13 22:16:52",
       "reps": 10,
       "weight": 280.0,
@@ -925,7 +920,7 @@
     {
       "id": 79,
       "lifter": "Robert",
-      "machine_id": 25,
+      "machine_id": 15,
       "logged_at": "2026-07-13 22:16:52",
       "reps": 10,
       "weight": 280.0,
@@ -935,7 +930,7 @@
     {
       "id": 80,
       "lifter": "Robert",
-      "machine_id": 25,
+      "machine_id": 15,
       "logged_at": "2026-07-13 22:16:52",
       "reps": 10,
       "weight": 290.0,
@@ -1433,16 +1428,6 @@
       "comment": null
     },
     {
-      "id": 130,
-      "lifter": "Jennie",
-      "machine_id": 28,
-      "logged_at": "2026-07-13 22:16:52",
-      "reps": 12,
-      "weight": 30.0,
-      "num_sets": 3,
-      "comment": null
-    },
-    {
       "id": 131,
       "lifter": "Jennie",
       "machine_id": 13,
@@ -1545,7 +1530,7 @@
     {
       "id": 141,
       "lifter": "Jennie",
-      "machine_id": 25,
+      "machine_id": 15,
       "logged_at": "2026-07-13 22:16:52",
       "reps": 12,
       "weight": 70.0,
@@ -1555,7 +1540,7 @@
     {
       "id": 142,
       "lifter": "Jennie",
-      "machine_id": 25,
+      "machine_id": 15,
       "logged_at": "2026-07-13 22:16:52",
       "reps": 12,
       "weight": 85.0,
@@ -1679,6 +1664,316 @@
       "logged_at": "2026-07-13 22:16:52",
       "reps": 12,
       "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 155,
+      "lifter": "Robert",
+      "machine_id": 19,
+      "logged_at": "2026-07-14 22:52:16",
+      "reps": 10,
+      "weight": 140.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 156,
+      "lifter": "Robert",
+      "machine_id": 20,
+      "logged_at": "2026-07-14 22:59:36",
+      "reps": 10,
+      "weight": 95.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 157,
+      "lifter": "Robert",
+      "machine_id": 29,
+      "logged_at": "2026-07-16 04:09:54",
+      "reps": 10,
+      "weight": 110.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 158,
+      "lifter": "Robert",
+      "machine_id": 19,
+      "logged_at": "2026-07-22 00:22:26",
+      "reps": 10,
+      "weight": 140.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 159,
+      "lifter": "Jennie",
+      "machine_id": 19,
+      "logged_at": "2026-07-22 00:25:04",
+      "reps": 12,
+      "weight": 100.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 160,
+      "lifter": "Jennie",
+      "machine_id": 12,
+      "logged_at": "2026-07-22 00:30:48",
+      "reps": 12,
+      "weight": 65.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 161,
+      "lifter": "Robert",
+      "machine_id": 12,
+      "logged_at": "2026-07-22 00:31:10",
+      "reps": 10,
+      "weight": 145.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 162,
+      "lifter": "Robert",
+      "machine_id": 13,
+      "logged_at": "2026-07-22 00:42:31",
+      "reps": 10,
+      "weight": 95.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 163,
+      "lifter": "Robert",
+      "machine_id": 13,
+      "logged_at": "2026-07-22 00:42:31",
+      "reps": 10,
+      "weight": 100.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 164,
+      "lifter": "Robert",
+      "machine_id": 13,
+      "logged_at": "2026-07-22 00:42:31",
+      "reps": 10,
+      "weight": 105.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 165,
+      "lifter": "Jennie",
+      "machine_id": 13,
+      "logged_at": "2026-07-22 00:44:38",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 166,
+      "lifter": "Robert",
+      "machine_id": 15,
+      "logged_at": "2026-07-22 00:51:31",
+      "reps": 10,
+      "weight": 290.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 167,
+      "lifter": "Robert",
+      "machine_id": 15,
+      "logged_at": "2026-07-22 00:51:31",
+      "reps": 10,
+      "weight": 300.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 168,
+      "lifter": "Jennie",
+      "machine_id": 15,
+      "logged_at": "2026-07-22 00:53:42",
+      "reps": 12,
+      "weight": 100.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 169,
+      "lifter": "Jennie",
+      "machine_id": 30,
+      "logged_at": "2026-07-24 01:34:09",
+      "reps": 12,
+      "weight": 55.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 170,
+      "lifter": "Robert",
+      "machine_id": 30,
+      "logged_at": "2026-07-24 01:36:41",
+      "reps": 10,
+      "weight": 115.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 171,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-24 01:45:01",
+      "reps": 10,
+      "weight": 65.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 172,
+      "lifter": "Robert",
+      "machine_id": 2,
+      "logged_at": "2026-07-24 01:45:01",
+      "reps": 10,
+      "weight": 70.0,
+      "num_sets": 2,
+      "comment": null
+    },
+    {
+      "id": 173,
+      "lifter": "Jennie",
+      "machine_id": 2,
+      "logged_at": "2026-07-24 01:45:53",
+      "reps": 12,
+      "weight": 15.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 174,
+      "lifter": "Jennie",
+      "machine_id": 2,
+      "logged_at": "2026-07-24 01:45:53",
+      "reps": 12,
+      "weight": 20.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 175,
+      "lifter": "Jennie",
+      "machine_id": 2,
+      "logged_at": "2026-07-24 01:45:53",
+      "reps": 12,
+      "weight": 25.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 176,
+      "lifter": "Jennie",
+      "machine_id": 27,
+      "logged_at": "2026-07-24 01:52:33",
+      "reps": 12,
+      "weight": 30.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 177,
+      "lifter": "Jennie",
+      "machine_id": 27,
+      "logged_at": "2026-07-24 01:52:33",
+      "reps": 12,
+      "weight": 45.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 178,
+      "lifter": "Jennie",
+      "machine_id": 27,
+      "logged_at": "2026-07-24 01:52:33",
+      "reps": 12,
+      "weight": 45.0,
+      "num_sets": 1,
+      "comment": null
+    },
+    {
+      "id": 179,
+      "lifter": "Robert",
+      "machine_id": 27,
+      "logged_at": "2026-07-24 01:53:20",
+      "reps": 10,
+      "weight": 145.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 180,
+      "lifter": "Robert",
+      "machine_id": 7,
+      "logged_at": "2026-07-24 02:00:38",
+      "reps": 10,
+      "weight": 95.0,
+      "num_sets": 3,
+      "comment": "narrow"
+    },
+    {
+      "id": 181,
+      "lifter": "Jennie",
+      "machine_id": 7,
+      "logged_at": "2026-07-24 02:03:37",
+      "reps": 12,
+      "weight": 40.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 182,
+      "lifter": "Robert",
+      "machine_id": 3,
+      "logged_at": "2026-07-24 02:08:36",
+      "reps": 10,
+      "weight": 75.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 183,
+      "lifter": "Jennie",
+      "machine_id": 3,
+      "logged_at": "2026-07-24 02:09:36",
+      "reps": 12,
+      "weight": 25.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 184,
+      "lifter": "Jennie",
+      "machine_id": 31,
+      "logged_at": "2026-07-24 02:11:37",
+      "reps": 12,
+      "weight": 25.0,
+      "num_sets": 3,
+      "comment": null
+    },
+    {
+      "id": 185,
+      "lifter": "Robert",
+      "machine_id": 31,
+      "logged_at": "2026-07-24 02:14:57",
+      "reps": 10,
+      "weight": 70.0,
       "num_sets": 3,
       "comment": null
     }

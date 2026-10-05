@@ -41,6 +41,11 @@ a {
   font-size: 0.9rem;
 }
 
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
 .lifter-nav {
   display: flex;
   gap: 1.5rem;
@@ -181,6 +186,39 @@ main {
 
 .sets-table-wrap p {
   color: #8e8e93;
+}
+
+.summary-section {
+  margin-top: 1.75rem;
+}
+
+.summary-section:first-of-type {
+  margin-top: 1rem;
+}
+
+.summary-section h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.summary-table th,
+.summary-table td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #d1d1d6;
+}
+
+@media (prefers-color-scheme: dark) {
+  .summary-table th,
+  .summary-table td {
+    border-bottom-color: #48484a;
+  }
 }
 
 .day-nav {

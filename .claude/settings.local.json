@@ -86,7 +86,11 @@
       "Bash(curl -s \"http://127.0.0.1:8811/history.php?lifter=Robert&date=2026-07-13\")",
       "Bash(curl -s \"http://127.0.0.1:8811/history.php?lifter=Robert&date=2026-07-20\")",
       "Bash(jobs)",
-      "Bash(make help *)"
+      "Bash(make help *)",
+      "Bash(curl -s \"http://localhost:8934/summary.php?lifter=Robert\")",
+      "Bash(pkill -f \"php -S localhost:8934\")",
+      "Bash(sqlite3 -header -csv /Users/robertguico/code/getswole/backups/getswole-20260804-014940.db ' *)",
+      "Read(//tmp/**)"
     ]
   }
 }

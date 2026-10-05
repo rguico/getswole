@@ -116,7 +116,10 @@ if ($date !== null) {
         ><?= h($l) ?></a>
       <?php endforeach; ?>
     </nav>
-    <a href="index.html" class="nav-link">Back to log</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Back to log</a>
+      <a href="<?= h('summary.php' . ($lifterName !== '' ? '?' . http_build_query(['lifter' => $lifterName]) : '')) ?>" class="nav-link">View summary</a>
+    </div>
   </header>
 
   <main id="history">

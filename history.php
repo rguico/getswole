@@ -8,9 +8,16 @@ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $lifters = $db->query('SELECT name FROM lifters ORDER BY name')->fetchAll(PDO::FETCH_COLUMN);
 
-$lifterName = (string)($_GET['lifter'] ?? '');
+$lifterName = (string)($_GET['lifter'] ?? $_COOKIE['lifter'] ?? '');
 if (!in_array($lifterName, $lifters, true)) {
     $lifterName = '';
+}
+if ($lifterName !== '' && ($_COOKIE['lifter'] ?? '') !== $lifterName) {
+    setcookie('lifter', $lifterName, [
+        'expires' => time() + 365 * 24 * 60 * 60,
+        'path' => '/',
+        'samesite' => 'Lax',
+    ]);
 }
 
 $requestedDate = (string)($_GET['date'] ?? '');

@@ -1,4 +1,4 @@
-const userSelect = document.getElementById("user-select");
+const lifterLinks = document.querySelectorAll("#lifter-nav .lifter-link");
 const sessionInput = document.getElementById("session-input");
 const machineInput = document.getElementById("machine-input");
 const machineList = document.getElementById("machine-list");
@@ -22,12 +22,36 @@ fetch("data.php")
   .then((res) => res.json())
   .then((json) => {
     data = json;
+    const savedLifter = getLifterCookie();
+    if ([...lifterLinks].some((link) => link.dataset.lifter === savedLifter)) {
+      selectLifter(savedLifter);
+    }
   });
 
-userSelect.addEventListener("change", () => {
-  currentLifter = userSelect.value;
+function getLifterCookie() {
+  const match = document.cookie.match(/(?:^|;\s*)lifter=([^;]*)/);
+  return match ? decodeURIComponent(match[1]) : null;
+}
+
+function setLifterCookie(lifter) {
+  document.cookie = `lifter=${encodeURIComponent(lifter)}; path=/; max-age=${365 * 24 * 60 * 60}; samesite=lax`;
+}
+
+function selectLifter(lifter) {
+  currentLifter = lifter;
+  lifterLinks.forEach((link) => {
+    link.classList.toggle("active", link.dataset.lifter === lifter);
+  });
   sessionInput.hidden = !currentLifter;
   updateRecentSets();
+}
+
+lifterLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    setLifterCookie(link.dataset.lifter);
+    selectLifter(link.dataset.lifter);
+  });
 });
 
 function filteredMachines() {

@@ -45,8 +45,8 @@ data: parse ## Dump the contents of every table
 		echo; \
 	done
 
-deploy: ## Rsync the project to the deploy host (excludes the db)
-	rsync -r --exclude $(DB) . $(DEPLOY_HOST):$(DEPLOY_PATH)
+deploy: ## Rsync the project to the deploy host, deleting remote-only files (excludes the db)
+	rsync -r --delete --exclude '$(DB)*' . $(DEPLOY_HOST):$(DEPLOY_PATH)
 
 overwrite: ## Push the local database to the deploy host
 	scp $(DB) $(DEPLOY_HOST):$(DEPLOY_PATH)$(DB)

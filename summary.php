@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+header('Cache-Control: no-cache');
+
 $DB = __DIR__ . '/getswole.db';
 
 $db = new PDO('sqlite:' . $DB);
@@ -79,7 +81,7 @@ function h($value): string {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Swole - Summary</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=<?= filemtime(__DIR__ . '/style.css') ?>">
 </head>
 <body>
   <header>
@@ -92,7 +94,7 @@ function h($value): string {
       <?php endforeach; ?>
     </nav>
     <div class="nav-links">
-      <a href="index.html" class="nav-link">Back to log</a>
+      <a href="index.php" class="nav-link">Back to log</a>
       <a href="<?= h('history.php' . ($lifterName !== '' ? '?' . http_build_query(['lifter' => $lifterName]) : '')) ?>" class="nav-link">View history</a>
     </div>
   </header>

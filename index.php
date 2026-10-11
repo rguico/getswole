@@ -1,10 +1,11 @@
+<?php header('Cache-Control: no-cache'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Swole</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=<?= filemtime(__DIR__ . '/style.css') ?>">
 </head>
 <body>
   <header>
@@ -61,6 +62,6 @@
     </div>
   </div>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=<?= filemtime(__DIR__ . '/app.js') ?>"></script>
 </body>
 </html>
